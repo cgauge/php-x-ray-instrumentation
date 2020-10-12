@@ -1,0 +1,30 @@
+{
+  "name": "customergauge/xray",
+  "description": "AWS X-Ray instrumentation for Laravel",
+  "type": "library",
+  "license": "MIT",
+  "keywords": ["laravel", "x-ray", "instrumentation", "aws"],
+  "authors": [
+    {
+      "name": "Marco Deleu",
+      "email": "deleugyn@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "CustomerGauge\\XRay\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\CustomerGauge\\XRay\\": "tests/"
+    }
+  }
+}
